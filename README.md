@@ -6,8 +6,8 @@ Note: code is a bit messy, could be optimised
      A. Mad Max: Hitchhickers Road
 >time limit per test: 2 seconds
 memory limit per test: 256 megabytes <br>
-input:standard input <br>
-output:standard output
+input : standard input <br>
+output : standard output
 
 To finish his latest adventure, Max needs to ride from the Citadel to Gas Town. The last mad getaway from the remnants of Joe's army has left him almost without fuel, with little hope of making it all the way through. However, he has a plan — get the fuel along the way!
 
