@@ -4,10 +4,10 @@ Consists of two algorithmic problems to solve within a limit of time and a certa
 Note: code is a bit messy, could be optimised
 ## Problem A
      A. Mad Max: Hitchhickers Road
->time limit per test2 seconds
-memory limit per test256 megabytes
-input<br>
-output<br> 
+>time limit per test: 2 seconds
+memory limit per test: 256 megabytes
+input<br> : standard input
+output<br> : standard output
 To finish his latest adventure, Max needs to ride from the Citadel to Gas Town. The last mad getaway from the remnants of Joe's army has left him almost without fuel, with little hope of making it all the way through. However, he has a plan — get the fuel along the way!
 
 The two settlements are connected by a straight road. Along the road, there are n
@@ -86,10 +86,10 @@ In the first example, to get 4
 ## Problem B
 
 B. Snowy road
->time limit per test2.5 s.
-memory limit per test256 MB
-input<br>
-output<br>
+>time limit per test: 2.5 s.
+memory limit per test: 256 MB
+input<br> : standard input
+output<br> : standard output
 The weather is especially bad this winter in Berland. A heavy snowstorm passed last night over the city of Bertown and covered some road with snow of variable thickness and completely destroyed other roads.
 
 Bertown road network consists of n
