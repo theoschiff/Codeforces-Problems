@@ -1,13 +1,13 @@
 # Codeforces-Problems
 ## CS-250 implementation exercises
 Consists of two algorithmic problems to solve within a limit of time and a certain limit of memory.
-
+Note: code is a bit messy, could be optimised
 ## Problem A
-A. Mad Max: Hitchhickers Road
-time limit per test2 seconds
+     A. Mad Max: Hitchhickers Road
+>time limit per test2 seconds
 memory limit per test256 megabytes
-inputstandard input
-outputstandard output
+input<br>
+output<br> 
 To finish his latest adventure, Max needs to ride from the Citadel to Gas Town. The last mad getaway from the remnants of Joe's army has left him almost without fuel, with little hope of making it all the way through. However, he has a plan — get the fuel along the way!
 
 The two settlements are connected by a straight road. Along the road, there are n
@@ -26,7 +26,7 @@ Max values his reputation, so if he decides to lift someone he must drop them of
 
 Your task is to check whether Max can get to his destination by helping the hitchhikers, and if so find the maximum amount of dog food that he can earn along the way.
 
-Input
+### Input
 The first line contains three integers: 2≤n≤2000
 , 0≤m≤2000
  and 0≤f≤109
@@ -42,22 +42,33 @@ Next follow m
  being respectively the post number where the hitchhiker stands, their destination and amounts of dog food in cans and gasoline in liters that they are willing to pay. It is guaranteed that ai<bi
 .
 
-Output
+### Output
 If Max cannot reach Gas Town by any means, output "Impossible" (case sensitive). Otherwise, output a single non-negative integer — the number of dog food cans that Max can earn along the way.
 
-Examples
-inputCopy
+### Examples
+
+input
+```
 3 2 1
 1 3 3 2
 2 3 4 1
-outputCopy
+
+```
+output
+```
 4
-inputCopy
+```
+input
+```
 3 2 0
 1 2 3 0
 2 3 4 0
-outputCopy
+```
+output
+```
 Impossible
+```
+
 Note
 It doesn't matter how much gas Max will have when he reaches Gas Town, as long as he can do it.
 
@@ -75,10 +86,10 @@ In the first example, to get 4
 ## Problem B
 
 B. Snowy road
-time limit per test2.5 s.
+>time limit per test2.5 s.
 memory limit per test256 MB
-inputstandard input
-outputstandard output
+input<br>
+output<br>
 The weather is especially bad this winter in Berland. A heavy snowstorm passed last night over the city of Bertown and covered some road with snow of variable thickness and completely destroyed other roads.
 
 Bertown road network consists of n
@@ -90,7 +101,7 @@ Gilbert wants to ride an e-bike from his house, located at intersection number s
 
 This is why he is asking you to help him.
 
-Input
+### Input
 The first line of the input contains four integers: 1≤n≤30000
 , 0≤m≤30000
 , 1≤s,t≤n
@@ -106,10 +117,9 @@ Next m
  is the high of snow on the road in millimeters. It is guaranteed that ai≠bi
 , and any two intersections are connected by at most one road,
 
-Output
+### Output
 If there is no possible path connecting s
- to t
-, output "Impossible" (case sensitive).
+ to t, output "Impossible" (case sensitive).
 
 Otherwise output two integers: the minimum value c
  such that there exists a path between s
@@ -121,18 +131,26 @@ If s=t
 , both numbers should be 0
 .
 
-Examples
-inputCopy
+### Examples
+input
+ ```
 3 3 1 3
 1 3 1 3
 1 2 10 1
 2 3 10 2
-outputCopy
+ ```
+output
+ ```
 2 20
-inputCopy
+ ```
+input
+```
 2 0 1 2
-outputCopy
+ ```
+output
+```
 Impossible
+```
 Note
 Keep in mind integer overflow.
 
