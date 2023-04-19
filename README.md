@@ -88,9 +88,11 @@ In the first example, to get 4
 
 B. Snowy road
 >time limit per test: 2.5 s.
-memory limit per test: 256 MB
-input<br> : standard input
-output<br> : standard output
+memory limit per test: 256 MB <br>
+input : standard input <br>
+output : standard output
+     
+ 
 The weather is especially bad this winter in Berland. A heavy snowstorm passed last night over the city of Bertown and covered some road with snow of variable thickness and completely destroyed other roads.
 
 Bertown road network consists of n
